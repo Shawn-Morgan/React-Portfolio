@@ -1,2 +1,2 @@
-# React-Portfolio
-portfolio built with react
+# React Portfolio
+...
