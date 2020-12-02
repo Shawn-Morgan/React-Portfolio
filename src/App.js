@@ -8,7 +8,7 @@ import './App.css';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+// import ContactPage from './pages/ContactPage';
 
 
 class App extends React.Component {
@@ -23,16 +23,16 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Just playing around to learn and have some fun!',
+        title: 'Continous learning for career and fun!',
         subTitle: 'Projects that are fun for learning',
         text: 'Take a look at my projects'
       },
       about: {
         title: 'About Me'
-      },
-      contact: {
-        title: 'Let\'s connect'
       }
+      // contact: {
+      //   title: 'Let\'s connect'
+      // }
     }
   }
 
@@ -49,14 +49,14 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+          
           
           <Footer />
 
@@ -67,3 +67,7 @@ class App extends React.Component {
 }
 
 export default App;
+
+// <Link className="nav-link" to="/contact">Contact</Link>
+
+// <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />

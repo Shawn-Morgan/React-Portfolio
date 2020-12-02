@@ -10,10 +10,10 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        Shawn Morgan
+                        SM
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Shawn Morgan
+                        Shawn Morgan: <a href="https://www.linkedin.com/in/shawn-morgan-bab865171">LinkedIn profile</a>
                     </Col>
                 </Row>
             </Container>

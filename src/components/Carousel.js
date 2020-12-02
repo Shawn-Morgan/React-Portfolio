@@ -5,6 +5,10 @@ import Card from '../components/Card';
 import space from '../assets/images/space.jfif';
 import quiz from '../assets/images/quiz2.jfif';
 import critter from '../assets/images/CritterSitterLogo-V.png';
+import weather from '../assets/images/weather.jfif';
+import tracker from '../assets/images/fitness.jpg';
+import notetaker from '../assets/images/notetaker.png';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -19,15 +23,15 @@ class Carousel extends React.Component {
                     title: 'Space Enthusiast',
                     subTitle: 'Space, the final frontier',
                     imgSrc: space,
-                    link: 'https://google.com',
+                    link: 'https://shawn-morgan.github.io/Space-Enthusiast/',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Quiz???',
-                    subTitle: 'Basic Quiz',
-                    imgSrc: quiz,
-                    link: 'https://google.com',
+                    title: 'Fitness Tracker',
+                    subTitle: 'Track your fitness',
+                    imgSrc: tracker,
+                    link: 'https://powerful-ravine-74873.herokuapp.com/',
                     selected: false
                 },
                 {
@@ -35,7 +39,31 @@ class Carousel extends React.Component {
                     title: 'Critter Sitter',
                     subTitle: 'A place to connect with dog sitters and dog owners',
                     imgSrc: critter,
-                    link: 'https://github.com/',
+                    link: 'https://afternoon-brushlands-34156.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Notetaker',
+                    subTitle: 'An app to take notes',
+                    imgSrc: notetaker,
+                    link: 'https://guarded-ravine-93517.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 4,
+                    title: 'Weather',
+                    subTitle: 'Check the weather',
+                    imgSrc: weather,
+                    link: 'https://shawn-morgan.github.io/Weather-Dashboard/',
+                    selected: false
+                },
+                {
+                    id: 5,
+                    title: 'Quiz',
+                    subTitle: 'Fun coding quiz',
+                    imgSrc: quiz,
+                    link: 'https://shawn-morgan.github.io/Code-Quiz/',
                     selected: false
                 },
             ]
